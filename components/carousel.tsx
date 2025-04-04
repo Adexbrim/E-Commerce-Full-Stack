@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import Stripe from 'stripe';
 import { Card, CardTitle, CardContent } from './ui/card';
 import Image from 'next/image';
-import { Button } from './ui/button';
+
 interface Props {
     products: Stripe.Product[];
 }

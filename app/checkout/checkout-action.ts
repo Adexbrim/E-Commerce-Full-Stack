@@ -3,7 +3,7 @@
 import { stripe } from "@/lib/stripe";
 import { CartItem } from "@/store/cart-store";
 import { redirect } from "next/navigation";
-import success from "../success/page";
+
 //import { Currency } from "lucide-react";
 
 export const  checkoutAction = async (formData: FormData): Promise<void> =>  {

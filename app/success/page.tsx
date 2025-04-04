@@ -1,9 +1,8 @@
 "use client";
-import { Button } from "@/components/ui/button";
 
 import { useCartStore } from "@/store/cart-store";
 import Link from "next/link";
-import { use, useEffect } from "react";
+import { useEffect } from "react";
 
 export default function SuccessPage() {
     const {clearCart} = useCartStore();
